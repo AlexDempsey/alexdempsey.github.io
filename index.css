@@ -7,6 +7,15 @@
   background-size: cover;
 }
 
+.parallax2 {
+  background-image: url("images/pizza 1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
 .title1 {
   font-family: 'Bowlby One SC', cursive;
   color: white;
