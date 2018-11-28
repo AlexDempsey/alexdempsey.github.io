@@ -16,6 +16,23 @@
   background-size: cover;
 }
 
+.parallax3 {
+  background-image: url("images/pizza 2.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.parallax4 {
+  background-image: url("images/doughnut 1.jpg");
+  min-height: 500px;
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
 .title1 {
   font-family: 'Bowlby One SC', cursive;
   color: white;
@@ -23,11 +40,4 @@
   height: 250px;
   text-align: center;
   background-color: black;
-}
-
-.title2 {
-  font-family: 'Bowlby One SC', cursive;
-  color: black;
-  height: 250px;
-  text-align: center;
 }
