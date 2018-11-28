@@ -7,9 +7,16 @@
   background-size: cover;
 }
 
-h1 {
+.title1 {
   font-family: 'Bowlby One SC', cursive;
   color: black;
   height: 500px;
+  text-align: center;
+}
+
+.title2 {
+  font-family: 'Bowlby One SC', cursive;
+  color: black;
+  height: 1000px;
   text-align: center;
 }
