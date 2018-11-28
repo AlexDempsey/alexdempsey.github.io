@@ -8,9 +8,10 @@
 }
 
 .title1 {
+  background-color: black;
   font-family: 'Bowlby One SC', cursive;
   font-size: 32px
-  color: black;
+  color: white;
   height: 250px;
   text-align: center;
 }
