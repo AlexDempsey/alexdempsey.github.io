@@ -4,47 +4,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="index2.css">
-<style>
-.mycontainer {
-  position: relative;
-  width: 50%;
-}
-
-.image {
-  display: block;
-  width: 100%;
-  height: auto;
-}
-
-.overlay {
-  position: absolute;
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  height: 100%;
-  width: 100%;
-  opacity: 0;
-  transition: .5s ease;
-  background-color: #008CBA;
-}
-
-.mycontainer:hover .overlay {
-  opacity: 1;
-}
-
-.text {
-  color: white;
-  font-size: 20px;
-  position: absolute;
-  top: 50%;
-  left: 50%;
-  -webkit-transform: translate(-50%, -50%);
-  -ms-transform: translate(-50%, -50%);
-  transform: translate(-50%, -50%);
-  text-align: center;
-}
-</style>
 </head>
 <body>
 <center>
@@ -52,49 +11,15 @@
 <p>Breakfast? Dinner? Ice Cream? Choose one below...</p></center>
 
 
-<div class= "container-fluid">
-  <div class="row">
-    <div class ="col-xl-6">
-    <div class="mycontainer">
-  <img src="../images/pancakeshake.gif" alt="Avatar" class="image">
-  <div class="overlay">
-    <div class="text">BREAKFAST / BRUNCH
-    </div>
-  </div>
-</div>
-</div>
-<div class ="col-xl-6">
-  <div class="mycontainer">
-  <img src="../images/pizzashake.gif" alt="Avatar" class="image">
-  <div class="overlay">
-    <div class="text">LUNCH</div>
-  </div>
-</div>
-</div>
-</div>
-
-
 <div class="row">
-  <div class ="col-xl-6">
-  <div class="mycontainer">
-<img src="../images/burgershake.gif" alt="Avatar" class="image">
-<div class="overlay">
-  <div class="text">DINNER
+  <div class="column">
+    <img src="../images/pancakeshake.gif" style="width:100%">
+    <img src="../images/burgershake.gif" style="width:100%">
   </div>
-</div>
-</div>
-</div>
-<div class ="col-xl-6">
-<div class="mycontainer">
-<img src="../images/doughnutshake.gif" alt="Avatar" class="image">
-<div class="overlay">
-  <div class="text">DESSERT</div>
-</div>
-</div>
-</div>
-</div>
-
-
+  <div class="column">
+    <img src="../images/pizzashake.gif" style="width:100%">
+    <img src="../images/doughnutshake.gif" style="width:100%">
+  </div>
 </div>
 
 </body>
