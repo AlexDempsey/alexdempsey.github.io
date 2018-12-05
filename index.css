@@ -8,7 +8,7 @@
 }
 
 .parallax2 {
-  background-image: url("images/ice cream 2.jpg");
+  background-image: url("images/cake 1.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -17,7 +17,7 @@
 }
 
 .parallax3 {
-  background-image: url("images/pizza 2.jpg");
+  background-image: url("images/pizza 3.jpg");
   min-height: 500px;
   background-attachment: fixed;
   background-position: center;
@@ -35,7 +35,7 @@
 }
 
 .title1 {
-  font-family: 'Bowlby One SC', cursive;
+  font-family: 'Righteous', cursive;
   color: white;
   font-size: 800%;
   height: 250px;
