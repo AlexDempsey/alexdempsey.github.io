@@ -1,3 +1,4 @@
+<style>
 .dropbtn {
     text-indent: 10px;
     font-weight: 300px;
@@ -65,3 +66,4 @@ a.fa-search.hover {
   transform: rotate(100deg);
   transform-origin: center;
 }
+</style>
