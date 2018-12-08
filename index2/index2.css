@@ -1,3 +1,15 @@
+body {
+  background-color: black;
+}
+
+h2 {
+  padding-top: 50px;
+  padding-bottom: 50px;
+  font-family: 'Bungee Shade', cursive;
+  font-size: 80px;
+  color: white;
+}
+
 {
     box-sizing: border-box;
 
@@ -24,7 +36,6 @@
     vertical-align: middle;
 }
 
-
 .image {
   display: block;
   width: 100%;
@@ -41,16 +52,68 @@
   width: 100%;
   opacity: 0;
   transition: .5s ease;
-  background-color: #008CBA;
+  background-color: skyblue;
+}
+
+.overlay2 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: pink;
+}
+
+.overlay3 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: palegreen;
+}
+
+.overlay4 {
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  height: 100%;
+  width: 100%;
+  opacity: 0;
+  transition: .5s ease;
+  background-color: coral;
 }
 
 .mycontainer:hover .overlay {
   opacity: 1;
 }
 
+.mycontainer:hover .overlay2 {
+  opacity: 1;
+}
+
+.mycontainer:hover .overlay3 {
+  opacity: 1;
+}
+
+.mycontainer:hover .overlay4 {
+  opacity: 1;
+}
+
 .text {
   color: white;
-  font-size: 20px;
+  font-size: 50px;
+  font-weight: bold;
   position: absolute;
   top: 50%;
   left: 50%;
