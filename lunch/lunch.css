@@ -1,0 +1,25 @@
+body {
+  background-color: black;
+}
+
+.title {
+  font-family: 'Bungee Shade', cursive;
+  color: white;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 150px;
+}
+
+.map {
+  width: 600px;
+  height: 300px;
+}
+
+h2 {
+  color: skyblue;
+}
+
+p {
+  color: white;
+}
