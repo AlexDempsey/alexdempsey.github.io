@@ -15,18 +15,85 @@
   </div>
 <br>
 <div class="header">
- <h1>ABOUT US</h1>
-
-
-  </div>
+ <a href="about.html" style="font-family:'Arial'">About Us</a>
+ </div>
 
 </body>
 </html>
 
 <style>
-  body{
+body{
             background-image: url("https://i.ibb.co/4Ny9XqB/index.png");
             background-repeat: no-repeat;
             background-size: 100%;
+}
+
+dropbtn {
+                text-indent: 10px;
+                font-weight: 300px;
+                width: 700px;
+                height: 70px;
+                border-radius: 50px;
+                background-color: #FFFFFF;
+                color: grey;
+                padding: 16px;
+                font-size: 16px;
+                border: none;
+                position: relative;
+
+
+            }
+
+.dropdown {
+                display: flex;
+                display: inline-block;
+                justify-content: center;
+                position: relative;
+            }
+
+.dropdown-content {
+                padding-right: 10;
+                display: none;
+                background-color: #f1f1f1;
+                box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+                z-index: 1;
+                font-family:arial;
+            }
+
+.dropdown-content a {
+                color: black;
+                padding: 12px 16px;;
+                text-decoration: none;
+                display: block;
+            }
+
+
+a.fa-search {
+              width: 70px;
+              height: 70px;
+              background-color:#ff031b;
+              border-radius: 50px;
+              color: #FFF;
+              text-decoration: none;
+              text-align: center;
+              line-height: 70px;
+              font-size: 22px;
+              position: absolute;
+              top: 0;
+              right: 0;
+              box-shadow: 0 0 10px rgba(0,0,0,.2);
+              transition: all .3s;
+            }
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #FFFFFF;}
+
+a.fa-search.hover {
+              transform: rotate(100deg);
+              transform-origin: center;
+            }
 
 </style>
