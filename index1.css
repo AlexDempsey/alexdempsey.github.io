@@ -1,0 +1,73 @@
+.dropbtn {
+    text-indent: 10px;
+    font-weight: 300px;
+    width: 700px;
+    height: 70px;
+    border-radius: 50px;
+    background-color: #FFFFFF;
+    color: grey;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+    position: relative;
+
+
+}
+
+.dropdown {
+    display: flex;
+    display: inline-block;
+    justify-content: center;
+    position: relative;
+}
+
+.dropdown-content {
+    padding-right: 10;
+    display: none;
+    background-color: #f1f1f1;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    font-family:
+}
+
+.dropdown-content a {
+    color: black;
+    padding: 12px 16px;;
+    text-decoration: none;
+    display: block;
+}
+
+
+a.fa-search {
+  width: 70px;
+  height: 70px;
+  background-color: tomato;
+  border-radius: 50px;
+  color: #FFF;
+  text-decoration: none;
+  text-align: center;
+  line-height: 70px;
+  font-size: 22px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  box-shadow: 0 0 10px rgba(0,0,0,.2);
+  transition: all .3s;
+}
+
+.dropdown-content a:hover {background-color: #ddd;}
+
+.dropdown:hover .dropdown-content {display: block;}
+
+.dropdown:hover .dropbtn {background-color: #FFFFFF;}
+
+a.fa-search.hover {
+  transform: rotate(100deg);
+  transform-origin: center;
+}
+
+body{
+          background-image: url("frenchtoastfinal.gif");
+          background-repeat: no-repeat;
+          background-size: 100%;
+}
