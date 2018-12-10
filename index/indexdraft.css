@@ -66,4 +66,8 @@ a.fa-search.hover {
   transform: rotate(100deg);
   transform-origin: center;
 }
+
+h1 {
+ font-family: "Arial", sans-serif;
+}
 </style>
