@@ -41,7 +41,7 @@
 a.fa-search {
   width: 70px;
   height: 70px;
-  background-color: tomato;
+  background-color: red;
   border-radius: 50px;
   color: #FFF;
   text-decoration: none;
@@ -77,7 +77,7 @@ color: #ff3300;
 
 .dropdown:hover .dropdown-content {display: block;}
 
-.dropdown:hover .dropbtn {background-color: #FFFFFF;}
+.dropdown:hover .dropbtn {background-color: #FFF;}
 
 a.fa-search.hover {
   transform: rotate(100deg);
