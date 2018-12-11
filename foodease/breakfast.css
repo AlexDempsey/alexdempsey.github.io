@@ -1,19 +1,17 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
-p {
-  font-family: "Times New Roman", Times, serif;
-}
-
-h1 {
-  font-size: 40px;
-}
-
-h2 {
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
   font-size: 30px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 200px;
 }
 
-p {
-  font-size: 14px;
+.map {
+  width: 600px;
+  height: 300px;
 }
