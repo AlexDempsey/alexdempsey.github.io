@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>foodease | breakfast/brunch in city of london</title>
+  <meta name="viewport" content="width=device-width, initial-scale=6">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <meta charset="utf-8" />
+  <link rel="stylesheet" href="https://unpkg.com/leaflet@1.3.3/dist/leaflet.css"
+     integrity="sha512-Rksm5RenBEKSKFjgI3a41vrjkw4EVPlJ3+OiI65vTjIdo9brlAacEuKOiQ5OFh7cOI1bkDwLqdLw3Zg0cRJAAQ=="
+     crossorigin=""/>
+    <script src="https://unpkg.com/leaflet@1.3.3/dist/leaflet.js"
+    integrity="sha512-tAGcCfR4Sc5ZP5ZoVz0quoZDYX5aCtEm/eu1KhSLj2c9eFrylXZknQYmxUssFaVJKvvc0dJQixhGjG2yXWiV9Q=="
+    crossorigin=""></script>
+</head>
+<body>
+
+  <div class="w3-sidebar w3-bar-block w3-light-grey" style="width:11%">
+<a href="index.html" class="w3-bar-item w3-button w3-hover-pink">home</a>
+<a href="breakfast.html" class="w3-bar-item w3-button w3-hover-yellow">breakfast/brunch</a>
+<a href="lunch.html" class="w3-bar-item w3-button w3-hover-green">lunch</a>
+<a href="dinner.html" class="w3-bar-item w3-button w3-hover-blue">dinner</a>
+<a href="dessert.html" class="w3-bar-item w3-button w3-hover-red">dessert</a>
+</div>
+
+   <div style="margin-left:70px">
+
+   <div class="w3-container">
+
+   </div>
+
+ </div>
+  <center>
+
+    <br>
+    <br>
+
+    <div id="map" style="width: 500px; height: 350px"></div>
+
+
+    <script>
+	var planes = [
+		["Ask For Janice",51.51903,-0.10066],
+		["Darwin Brasserie",51.51121,-0.08376],
+		["Eastway Brasserie",51.51738,-0.08158],
+		["The Ivy City Garden",51.51665,-0.08254],
+		["Polo Bar",51.51754,-0.08018],
+		];
+        var map = L.map('map').setView([51.51903,-0.08018], 12);
+        mapLink =
+            '<a href="http://openstreetmap.org">OpenStreetMap</a>';
+        L.tileLayer(
+            'http://{s}.tile.openstreetmap.org/{z}/{x}/{y}.png', {
+            attribution: '&copy; ' + mapLink + ' Contributors',
+            maxZoom: 18,
+            }).addTo(map);
+		for (var i = 0; i < planes.length; i++) {
+			marker = new L.marker([planes[i][1],planes[i][2]])
+				.bindPopup(planes[i][0])
+				.addTo(map);
+		}
+    </script>
+
+
+    <h2> 1. <a href="askforjanice.html">Ask For Janice</a></h2>
+    <p>  50-52 Long Lane,  London EC1A 9EJ, England</p>
+    <p>  Star Rating:  &#9733; &#9733; &#9733; &#9733; &#9734; </p>
+    <p>  Official Website: <a href="https://askforjanice.co.uk" target="_blank">askforjanice.co.uk</a></p>
+    <p><i>Chilled restaurant that serves brunch, cocktails, craft beer and vegan wine.</i></p>
+
+    <h2>2. <a href="darwinbrasserie.html">Darwin Brasserie</a></h2>
+    <p>  20 Fenchurch Street, The Sky Garden, London EC3M 3BY, England</p>
+    <p>  Star Rating:  &#9733; &#9733; &#9733; &#9733; &#9734; </p>
+    <p>  Official Website: <a href="http://skygarden.london/darwin/" target="_blank">skygarden.london/darwin</a></p>
+    <p><i>A sleek 36th-floor oasis in Sky Garden that serves seasonal British dishes from breakfast to dinner.</i></p>
+
+    <h2>3. <a href="eastwaybrasserie.html">Eastway Brasserie</a></h2>
+    <p>  40 Liverpool Street, London EC2M 7QN, England</p>
+    <p>  Star Rating:  &#9733; &#9733; &#9733; &#9733; &#9734; </p>
+    <p>  Official Website: <a href="http://eastwaybrasserie.co.uk/" target="_blank">eastwaybrasserie.co.uk</a></p>
+    <p><i>Light-filled dining room with an open kitchen serving classic brasserie comfort dishes.</i></p>
+
+    <h2>4. <a href="ivycity.html">The Ivy City Garden</a></h2>
+    <p>  Dashwood House 69 Old Broad Street, London EC2M 1QS, England</p>
+    <p>  Star Rating:  &#9733; &#9733; &#9733; &#9733; &#9734; </p>
+    <p>  Official Website: <a href="https://theivycitygarden.com/" target="_blank">theivycitygarden.com</a></p>
+    <p><i>All day bar and restaurant that serves fresh and light breakfast dishes.</i></p>
+
+
+    <h2>5. <a href="polobar.html">Polo Bar</a></h2>
+    <p> 176 Bishopsgate, London EC2M 4NQ, England</p>
+    <p> Star Rating:  &#9733; &#9733; &#9733; &#9734; &#9734; </p>
+    <p> Official Website: <a href="http://polo24hourbar.co.uk/" target="_blank">polo24hourbar.co.uk</a></p>
+    <p><i>The number one spot for 24/7 breakfast and drinks in Central London.</i></p>
+
+</center>
+</body>
+</html>
