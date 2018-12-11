@@ -1,0 +1,17 @@
+body {
+  background-color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+
+}
+
+.title {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 60px;
+  text-align: left;
+  padding-top: 25px;
+  padding-left: 200px;
+}
