@@ -12,6 +12,10 @@ body {
   padding-left: 200px;
 }
 
+.h2 {
+  font-family: 'Source Sans Pro', sans-serif;
+}
+
 .map {
   width: 600px;
   height: 300px;
