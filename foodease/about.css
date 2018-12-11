@@ -10,8 +10,22 @@ body {
 .title {
   font-family: 'Source Sans Pro', sans-serif;
   color: black;
-  font-size: 60px;
-  text-align: left;
+  font-size: 100px;
+  text-align: center;
   padding-top: 25px;
   padding-left: 200px;
+}
+
+.p {
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
+  font-size: 80px;
+  text-align: center;
+  padding-top: 25px;
+  padding-left: 200px;
+}
+
+.button {
+ font-family: 'Source Sans Pro', sans-serif;
+
 }
