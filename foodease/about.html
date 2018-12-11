@@ -50,7 +50,7 @@
   .h1 {
     font-family: 'Source Sans Pro', sans-serif;
     color: black;
-    font-size: 20px;
+    font-size: 30px;
     text-align: center;
     padding-top: 25px;
     padding-left: 50px;
@@ -61,6 +61,67 @@
    font-weight: bold;
 
   }
+
+  * {
+    box-sizing: border-box;
+  }
+
+  input[type=text], select, textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    resize: vertical;
+  }
+
+  label {
+    padding: 12px 12px 12px 0;
+    display: inline-block;
+  }
+
+  input[type=submit] {
+    background-color: #4CAF50;
+    color: white;
+    padding: 12px 20px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    float: right;
+  }
+
+  input[type=submit]:hover {
+    background-color: #45a049;
+  }
+
+  .container {
+    border-radius: 5px;
+    background-color: #f2f2f2;
+    padding: 20px;
+  }
+
+  .col-25 {
+    float: left;
+    width: 25%;
+    margin-top: 6px;
+  }
+
+  .col-75 {
+    float: left;
+    width: 75%;
+    margin-top: 6px;
+  }
+
+  .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+
+  @media screen and (max-width: 600px) {
+    .col-25, .col-75, input[type=submit] {
+      width: 100%;
+      margin-top: 0;
+    }
 </style>
 <body>
 <center>
@@ -71,22 +132,61 @@
 <br>Fancy brunch, ice cream, steak or something healthy? Foodease will show you the way!</p>
 <p>So what do you say? <a href="index1.html" class="w3-btn w3-border w3-border-red w3-white w3-round w3-hover-red">Let's Eat!</a></p>
 <br>
-<br>
+<br><img src="steak.jpg" width="400" height="250"></img>
+<img src="egg2.jpeg" width="400" height="250"></img>
+<img src="acai1.jpeg" width="400" height="250"></img>
 <br><h1 style= font-size:10px;"><i>If you are interested in live updates (by email) sign up to our mailing list!</i></h1>
-<form action="/action_page.php">
-  <fieldset>
-    <legend>Personal information:</legend>
-    First name:<br>
-    <input type="text" name="firstname" value="John"><br>
-    Last name:<br>
-    <input type="text" name="lastname" value="Smith"><br><br>
-    E-mail:<br>
-    <input type="text" name="E-mail" value="johnsmith@hotmail.com"><br><br>
+
+<div class="container">
+  <form action="/action_page.php">
+  <div class="row">
+    <div class="col-25">
+      <label for="fname">First Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="fname" name="firstname" placeholder="Your name..">
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="lname">Last Name</label>
+    </div>
+    <div class="col-75">
+      <input type="text" id="lname" name="lastname" placeholder="Your last name..">
+    </div>
+  </div>
+  <div class="col-25">
+    <label for="lname">E-mail</label>
+  </div>
+  <div class="col-75">
+    <input type="text" id="email" name="email" placeholder="Your E-mail..">
+  </div>
+</div>
+  <div class="row">
+    <div class="col-25">
+      <label for="country">Country</label>
+    </div>
+    <div class="col-75">
+      <select id="country" name="country">
+        <option value="australia">UK</option>
+        <option value="canada">Canada</option>
+        <option value="usa">USA</option>
+      </select>
+    </div>
+  </div>
+  <div class="row">
+    <div class="col-25">
+      <label for="subject">Subject</label>
+    </div>
+    <div class="col-75">
+      <textarea id="subject" name="subject" placeholder="Leave Foodease a message..." style="height:200px"></textarea>
+    </div>
+  </div>
+  <div class="row">
     <input type="submit" value="Submit">
-  </fieldset>
-</form>
-
-
+  </div>
+  </form>
+</div>
 </center>
 </body>
 </html>
