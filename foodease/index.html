@@ -1,48 +1,123 @@
+
 <!DOCTYPE html>
 <html>
-  <head>
-    <title>Foodease</title>
-    <link rel="stylesheet" type="text/css" href="index.css">
-    <script src="js/jquery-3.2.1.min.js"></script>
-    <script src="js/bootstrap.min.js"></script>
-    <link href="https://fonts.googleapis.com/css?family=Bungee+Shade|Righteous" rel="stylesheet">
-  </head>
-  <body>
+<head>
+    <title>foodease | are you hungry?</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" type="text/css href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+  .dropbtn {
+      text-indent: 10px;
+      font-weight: 300px;
+      width: 700px;
+      height: 70px;
+      border-radius: 50px;
+      background-color: #FFFFFF;
+      color: grey;
+      padding: 16px;
+      font-size: 16px;
+      border: none;
+      position: relative;
 
-    <div class="title1">Hungry?</div>
 
-    <div class="center-con">
+  }
 
-    <div class="round">
-        <span></span>
-        <span></span>
-        <span></span>
-        <span></span>
-    </div>
+  .dropdown {
+      display: flex;
+      display: inline-block;
+      justify-content: center;
+      position: relative;
+  }
 
+  .dropdown-content {
+      padding-right: 10;
+      display: none;
+      background-color: #f1f1f1;
+      box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+      z-index: 1;
+      font-family:
+  }
+
+  .dropdown-content a {
+      color: black;
+      padding: 12px 16px;;
+      text-decoration: none;
+      display: block;
+  }
+
+
+  .dropdown-content a:hover {background-color: #ddd;}
+
+  .dropdown:hover .dropdown-content {display: block;}
+
+  .dropdown:hover .dropbtn {background-color: #FFFFFF;}
+
+  a.fa-search.hover {
+    transform: rotate(100deg);
+    transform-origin: center;
+  }
+
+
+  body{
+            background-image: url("frenchtoastfinal.gif");
+            background-repeat: no-repeat;
+            background-size: 100%;
+  }
+
+  a.fa-search {
+    width: 70px;
+    height: 70px;
+    background-color: red;
+    border-radius: 50px;
+    color: #000000;
+    text-decoration: none;
+    text-align: center;
+    line-height: 70px;
+    font-size: 22px;
+    position: absolute;
+    top: 0;
+    right: 0;
+    box-shadow: 0 0 10px rgba(0,0,0,.2);
+    transition: all .3s;
+  }
+
+  .h2 {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background: black;
+    font-size: 30px;
+    text-align: left;
+    padding-top: 55px;
+    padding-left: 200px;
+  }
+
+  a:link {
+  color: #ffffff;
+  }
+
+  a:hover {
+  color: #ff3300;
+  }
+
+</style>
+</head>
+<body>
+  <center>
+    <br>
+    <br>
+  <h1 style="font-family:'Arial'; color: white; font-weight: 900;font-size:100px;">are you hungry?</h1>
+  <h2 style="font-family:'Arial'; color: white; font-weight: 600;font-size:30px;">what is foodease?<a href="about.html" style="color: red">click to learn more!</a></h2>
+
+
+<center>
+<div class="dropdown">
+  <button class="dropbtn">pick your destination</button>
+  <a href="" id= "icon" class="fa fa-search"></a>
+  <div class="dropdown-content">
+    <a href="breakfast.html" style="font-family:'Arial'"">City of London, England</a>
+
+  </div>
 </div>
 
-    <div class="parallax"></div>
-
-    <div class="title2">No?</div>
-
-    <div class="parallax2"></div>
-
-    <div class="title2">Now?</a></div>
-
-    <div class="parallax3"></div>
-
-    <div class="title2">Thought so.</div>
-
-    <div class="parallax4"></div>
-
-    <div class="title3">Try Foodease</a></div>
-
-    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.3.1/css/all.css" integrity="sha384-mzrmE5qonljUremFsqc01SB46JvROS7bZs3IO2EmfFsd15uHvIt+Y8vEf7N7fWAU" crossorigin="anonymous">
-
-
-      <button><a href="index2/index2.html">Let's eat</a></button>
-
-
-  </body>
+</body>
 </html>
