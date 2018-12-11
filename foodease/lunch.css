@@ -1,10 +1,10 @@
 body {
-  background-color: black;
+  background-color: white;
 }
 
 .title {
-  font-family: 'Bungee Shade', cursive;
-  color: white;
+  font-family: 'Source Sans Pro', sans-serif;
+  color: black;
   font-size: 80px;
   text-align: center;
   padding-top: 25px;
@@ -22,45 +22,4 @@ h2 {
 
 p {
   color: white;
-}
-
-#mySidenav a {
-    position: absolute;
-    left: -80px;
-    transition: 0.3s;
-    padding: 30px;
-    width: 120px;
-    text-decoration: none;
-    font-size: 16px;
-    color: white;
-    border-radius: 0 5px 5px 0;
-}
-
-#mySidenav a:hover {
-    left: 0;
-}
-
-#home {
-    top: 60px;
-    background-color: yellow;
-}
-
-#breakfast {
-    top: 140px;
-    background-color: skyblue;
-}
-
-#lunch {
-    top: 220px;
-    background-color: pink;
-}
-
-#dinner {
-    top: 300px;
-    background-color: palegreen;
-}
-
-#dessert {
-  top: 380px;
-  background-color: coral;
 }
