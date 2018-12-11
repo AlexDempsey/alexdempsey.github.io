@@ -55,6 +55,15 @@ a.fa-search {
   transition: all .3s;
 }
 
+.h2 {
+  font-family: 'Arial', sans-serif;
+  color: white;
+  font-size: 30px;
+  text-align: left;
+  padding-top: 55px;
+  padding-left: 200px;
+}
+
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
