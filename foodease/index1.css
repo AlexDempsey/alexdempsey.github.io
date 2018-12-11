@@ -65,6 +65,14 @@ a.fa-search {
   padding-left: 200px;
 }
 
+a:link {
+color: #ffffff;
+}
+
+a:hover {
+color: #ff3300;
+}
+
 .dropdown-content a:hover {background-color: #ddd;}
 
 .dropdown:hover .dropdown-content {display: block;}
