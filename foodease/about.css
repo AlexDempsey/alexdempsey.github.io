@@ -4,6 +4,9 @@ body {
   color: black;
   font-size: 30px;
   text-align: center;
+  background-image: url("aboutbg.jpg");
+  background-repeat: no-repeat;
+  background-size: 100%;
 
 }
 
